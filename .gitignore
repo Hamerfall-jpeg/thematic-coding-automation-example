@@ -1,0 +1,44 @@
+# Boilerplate
+__pycache__/
+_archive/
+_dev/
+.idea/
+build/
+dev/
+dist/
+ignored/
+logs/
+*~$*
+*.DS_Store
+*.egg-info
+*.swp
+MANIFEST
+
+# Custom
+bak/
+/*.json
+!config/
+*/cache/*
+!*/cache/.keep
+.ipynb_checkpoints/
+env/*
+/venv/
+junk
+*/junk.json
+*.ipynb
+.idea
+.DS_Store
+backup/
+.vscode/
+*.code-workspace
+*.dmp
+.log
+tmp/
+temp/
+
+# Environment files
+.env
+!.env.example
+
+# LLM
+.claude/settings.local.json
